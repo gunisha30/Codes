@@ -1,3 +1,4 @@
+ #link to the problem : https://practice.geeksforgeeks.org/problems/bleak-numbers/0 
  def bin(p):
     if (p>1):
         bin(p//2)
