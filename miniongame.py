@@ -1,3 +1,4 @@
+link to the problem: https://www.hackerrank.com/challenges/the-minion-game/problem
 def minion_game(s):
     l=[]
     l1=[]
