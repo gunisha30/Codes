@@ -1,3 +1,4 @@
+problem link: https://www.hackerrank.com/challenges/merge-the-tools/problem?isFullScreen=false
 def merge_the_tools(s, k):
     def f(b):
         for i in range(0,len(b)):
