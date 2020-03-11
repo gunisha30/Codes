@@ -1,5 +1,8 @@
+Link to the problem: https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0
 t=int(input())
 while(t):
+    a=[]
+    b=[]
     size=int(input())
     a=list(map(int,input().split()))
     b=list(map(int,input().split()))
@@ -13,9 +16,12 @@ while(t):
                 swap(b,i,j)
                 swap(a,i,j)
                 swap(c,i,j)
-    print(c[0],end="")
+    print(c[0],end=" ")
     i=0
     for j in range(1,len(b)-1):
         if(a[j]>=b[i]):
             i=j
-            print(c[j],end="")
+            print(c[j],end=" ")
+    print("")
+    t=t-1
+    
