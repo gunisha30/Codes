@@ -20,7 +20,6 @@ while(True):
     l4 = list(map(int,str(d)))
     l5 = list(map(int,str(e)))
     p,q,r,s,t=f(l1,l2,l3,l4,l5)
-    #print(l1)
     if(p==q==r==s==t):
         print(i)
         break
