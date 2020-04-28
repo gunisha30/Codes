@@ -11,3 +11,12 @@ else:
         print('yes')
     else:
         print('no') 
+       
+#code to print all substrings of a string 
+s=input()
+l=[]
+for i in range(len(s)):
+    for j in range(i+1,len(s)+1):
+        l.append(s[i:j])
+print(l)
+    
